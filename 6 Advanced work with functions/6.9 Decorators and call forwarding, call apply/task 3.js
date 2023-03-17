@@ -1,4 +1,4 @@
-let f = debounce(console, 1000);
+let f = debounce(console.log, 1000);
 
 f(1); // выполняется немедленно
 f(2); // проигнорирован
